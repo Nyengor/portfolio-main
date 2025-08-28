@@ -5,7 +5,7 @@ export default function ServiceCard({ title, imageUrl }) {
 
     return (
         <>
-            <div className="bg-transparent border border-[rgba(255,255,255,0.5)] w-[90%] h-[60vh] rounded-lg ">
+            <div className="bg-transparent  w-[90%] h-[60vh] rounded-lg ">
                 <h3 className="text-2xl font-semibold p-4">{title}</h3>
               <hr className="border-[rgba(255,255,255,0.5)]"/>
 
