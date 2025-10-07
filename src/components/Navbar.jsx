@@ -1,7 +1,8 @@
 export default function Navbar() {
     return (
         <>
-            <div class=" flex-row fixed w-[80%] z-100 ml-[10%] my-5 bg-[rgba(255,255,255,0.2)] flex justify-around items-center rounded-4xl">
+            <div className="flex flex-row fixed top-4 left-1/2 transform -translate-x-1/2 w-[80%] z-50 bg-[rgba(255,255,255,0.2)] backdrop-blur-md justify-around items-center rounded-4xl py-2">
+
 
                 <h2
                     class="bg-linear-to-r  from-purple-500 to-pink-500 font-bold text-2xl bg-clip-text text-transparent p-4">
